@@ -9,28 +9,25 @@ require('chai')
 contract('Contract', ([acc1, acc2]) => {
   let contract
 
-	beforeEach(async () => {
-		contract = await Contract.new()
-	})
+  beforeEach(async () => {
+    contract = await Contract.new()
+  })
 
-	describe('1st block of tests', () => {
-		it('checks contract name', async () => {
+  describe('1st block of tests', () => {
+    it('checks contract name', async () => {
       const result = await contract.name()
       result.should.equal("ContractName")
-		})
+    })
 
-		it('1st test1', async () => {
-			
-		})
-	})
+    it('1st test1', async () => {        
+    })
+  })
 
-	describe('2nd block of tests', () => {
-		it('2nd test1', async () => {
+  describe('2nd block of tests', () => {
+    it('2nd test1', async () => {
+    })
 
-		})
-
-		it('2nd test1', async () => {
-			
-		})
-	})
+    it('2nd test1', async () => {
+    })
+  })
 })
