@@ -40,6 +40,9 @@ export const loadAccount = async (dispatch, web3) => {
     if(typeof account !== 'undefined'){
       dispatch(web3AccountLoaded(account))
       return account
+    } else {
+      dispatch(web3AccountLoaded(null))
+      return null
     }
   } catch (e) {
     console.log('Error, load account: ', e)
