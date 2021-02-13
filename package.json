@@ -27,7 +27,7 @@
     "redux": "4.0.5",
     "redux-logger": "3.0.6",
     "reselect": "4.0.0",
-    "truffle": "5.1.48",
+    "truffle": "5.1.66",
     "truffle-hdwallet-provider-privkey": "0.3.0",
     "web3": "1.2.6"
   },
